@@ -1,17 +1,28 @@
 ---
-
+const name = "Dylan Gray";
+const role = "Machine Learning Engineer | Computational Mechanics Researcher";
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <title>{name}</title>
+    <meta 
+      name="description" 
+      content="Portfolio of Dylan Gray - Machine Learning Engineer and Computational Mechanics Researcher"
+    />
+  </head>
+
+  <body>
+    <main>
+      <h1>{name}</h1>
+
+      <h2>{role}</h2>
+
+      <p>
+        Developing AI systems for engineering applications,
+        combining machine learning, scientific computing,
+        and computational mechanics.
+      </p>
+    </main>
+  </body>
 </html>
