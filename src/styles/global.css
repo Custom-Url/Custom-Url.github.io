@@ -1,18 +1,29 @@
+:root {
+  --background: #0b0f14;
+  --surface: #111820;
+  --text: #e6edf3;
+  --muted: #8b949e;
+  --accent: #58a6ff;
+  --border: #30363d;
+}
+
+
 * {
   box-sizing: border-box;
 }
 
+
 html {
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
+  background: var(--background);
+  color: var(--text);
 }
+
 
 body {
   margin: 0;
-  padding: 0;
-  background: #ffffff;
-  color: #222222;
 }
+
 
 main {
   max-width: 1000px;
@@ -20,10 +31,12 @@ main {
   padding: 2rem;
 }
 
+
 a {
-  color: inherit;
+  color: var(--accent);
   text-decoration: none;
 }
+
 
 a:hover {
   text-decoration: underline;
